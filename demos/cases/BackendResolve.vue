@@ -6,7 +6,7 @@ import { Comments } from '../../src/index';
 import { getData } from '../data';
 
 const url = new RestURL(
-	'https://-backend.svar.devcomments/comments'
+	'https://comments-backend.svar.dev/comments'
 );
 const users = getData().users;
 

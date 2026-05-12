@@ -7,9 +7,9 @@ import { getData } from '../data';
 const users = getData().users;
 
 const loadURL =
-	'https://-backend.svar.devcomments/comments-info/1';
+	'https://comments-backend.svar.dev/comments-info/1';
 const saveURL = new RestURL(
-	'https://-backend.svar.devcomments/comments/1'
+	'https://comments-backend.svar.dev/comments/1'
 );
 
 const value = ref([]);
